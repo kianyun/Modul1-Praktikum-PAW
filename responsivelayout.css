@@ -1,0 +1,13 @@
+/* Tablet (Lebar layar maksimal 900px): Berubah menjadi 2 Kolom */
+@media (max-width: 900px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Smartphone (Lebar layar maksimal 600px): Berubah menjadi 1 Kolom penuh */
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
